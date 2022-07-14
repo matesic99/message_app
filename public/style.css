@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Edu SA Beginner', cursive;
+    background-image:url('https://data.whicdn.com/images/285922616/original.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.card{
+    margin-top: 3rem;
+    width: 88%;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    max-width: 35rem;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #E6CEA0;
+}
+.sended{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.for_message{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 75%;
+  margin-top: 3rem;
+
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+.for_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.developed{
+    margin-top: 7rem;
+    display : flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+
+}
+.developed a{
+    color: #E6CEA0;
+    text-decoration: none;
+}
+.vidi_poruke{
+margin-top:22rem;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+
+}
+.vidi_poruke p{
+    color:  #E6CEA0;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}

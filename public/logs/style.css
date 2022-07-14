@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Edu SA Beginner', cursive;
+    background-image:url('https://data.whicdn.com/images/276757621/original.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    text-align: center;
+    font-size: 1.6rem;
+
+}
+h1{
+    color: #E6CEA0;
+}
+/*
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.card{
+    margin-top: 3rem;
+    width: 88%;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    max-width: 35rem;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #E6CEA0;
+}
