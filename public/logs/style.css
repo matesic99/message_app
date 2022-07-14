@@ -15,7 +15,8 @@ body{
     background-attachment: fixed;
     text-align: center;
     margin-top: 0.5rem;
-    padding: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
 }
 h1{
