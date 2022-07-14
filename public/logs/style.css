@@ -8,39 +8,37 @@ html{
 }
 body{
     font-family: 'Edu SA Beginner', cursive;
-    background-image:url('https://data.whicdn.com/images/276757621/original.jpg');
+    background-image:url('https://i.pinimg.com/564x/a4/64/41/a4644156369b6b1ca6355cffb40c5e73.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    color: black;
     text-align: center;
-    font-size: 1.6rem;
+    margin-top: 0.5rem;
+    padding: 3rem;
 
-}
-h1{
-    color: #E6CEA0;
-}
-/*
-.container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
-}
-
-.card{
-    margin-top: 3rem;
-    width: 88%;
-    border-radius: 2rem;
-    padding: 2.5rem;
-    max-width: 35rem;
 }
 h1{
     font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
     color: #E6CEA0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+    color:#89cff0;
+    font-weight: bold;
+
+}
+
+.message{
+    margin-top: 0.51rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }

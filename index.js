@@ -20,10 +20,11 @@ app.get('/api', (req, res) => {
 });
 
 
-app.post('/api', (req, res) => {
-    const data = req.body;
-    database.insert(data);
-    res.json({data
-    });
 
+app.post('/api', (request, response) => {
+  const data = request.body;
+  const timestamp = Date.now();
+  data.timestamp = timestamp;
+  database.insert(data);
+  response.json(data);
 });

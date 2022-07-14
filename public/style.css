@@ -8,7 +8,7 @@ html{
 }
 body{
     font-family: 'Edu SA Beginner', cursive;
-    background-image:url('https://data.whicdn.com/images/285922616/original.jpg');
+    background-image:url("bg_cleanup.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,6 +127,7 @@ h1{
     justify-content: center;
     align-items: flex-end;
     text-decoration: none;
+    color: #f0f8ff;
 
 }
 .developed a{
@@ -141,7 +142,7 @@ align-items: flex-end;
 
 
 }
-.vidi_poruke p{
+.vidi_poruke a{
     color:  #E6CEA0;
     font-size: 2rem;
     text-decoration: underline;

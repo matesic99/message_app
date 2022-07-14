@@ -16,5 +16,8 @@ button.addEventListener('click', async event => {
   const congrats = document.getElementById('poslano');
     congrats.style.color = 'green';
     setInterval(function () {congrats.textContent = "Poslano !"}, 1000);
+    congrats.style.textAlign = 'center';
+    congrats.style.fontSize = '30px';
+    
 });
 
