@@ -30,8 +30,9 @@ h1{
 p{
     font-size: 2rem;
     text-align: center;
-    color:#89cff0;
+    color: #ebebeb ;
     font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 
 }
 
@@ -41,5 +42,4 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
